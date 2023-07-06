@@ -9,7 +9,7 @@
  
 /* Cabeçalho */
 header{
-    background-color: #233261;
+    background-color: #18235C;
     color: #fff;
     width: 100%;
     height: 10vh;
@@ -65,9 +65,26 @@ header{
     background-image: url(imagens/tenis6.jpg);
 }
 
+.btn{
+    display: block;
+    background-color: #18235C;
+    color: #fff;
+    padding: 14px;
+    text-align: center;
+    font-size: 1.2em;
+    height: 50px;
+    width: 100%;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+
+.btn:hover{
+    background-color:#2C41A9;
+}
 /* Footer Rodapé */
 footer{
-    background-color: #233261;
+    background-color: #18235C;
     color: #fff;
     width: 100%;
     height: 10vh;
